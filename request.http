@@ -1,0 +1,29 @@
+get https://ec2diaz.onrender.com
+###
+get https://ec2diaz.onrender.com/idat/codigo
+
+###
+
+get https://ec2diaz.onrender.com/idat/nombre-completo
+
+
+###
+
+
+get https://ec2diaz.onrender.com/api/curso/listar
+
+
+###
+POST https://ec2diaz.onrender.com/api/curso/nuevo 
+Content-Type: application/x-www-form-urlencoded
+
+name= Finanzas
+&creditos=8
+
+
+###
+
+DELETE https://ec2diaz.onrender.com/api/curso/eliminar
+Content-Type: application/x-www-form-urlencoded
+
+id=3
