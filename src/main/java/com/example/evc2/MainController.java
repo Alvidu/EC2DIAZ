@@ -13,7 +13,7 @@ public class MainController {
 
     @GetMapping("idat/codigo")
     public String codigo() {
-        return "sm76108456";
+        return "sm73763083";
     }
 
     @GetMapping("idat/nombre-completo")
